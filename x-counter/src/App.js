@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-      <h1 className="Count_Value"> Counter App </h1> <p> Count : {count}</p>
+      <h1 className="Count_Value"> Counter App </h1> <p> Count: {count}</p>
       <button onClick={increment}> Increment </button>{" "}
       <button onClick={decrement}> Decremen </button>{" "}
     </div>
